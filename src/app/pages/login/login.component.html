@@ -1,0 +1,71 @@
+<div class="w-screen h-screen bg-gray relative sm:bg-gray-50">
+  <!-- Img´s footer -->
+  <div class="absolute w-full h-full hidden sm:block">
+    <img
+      loading="lazy"
+      class="absolute w-60 lg:w-96 left-0 bottom-0"
+      src="/assets/svg/login-bg-left.svg"
+      alt=""
+    />
+
+    <img
+      class="absolute w-60 lg:w-96 right-0 bottom-0"
+      src="/assets/svg/login-bg-rigth.svg"
+      alt=""
+    />
+  </div>
+
+  <!-- Login -->
+  <div class="relative w-full sm:w-7/12 md:w-6/12 lg:w-4/12 m-auto">
+    <!-- Logo -->
+    <header>
+      <img
+        class="w-56"
+        src="assets/images/logo/logo-gradient-blue-trello.png"
+        alt=""
+      />
+    </header>
+
+    <!-- Form content -->
+    <div class="bg-white rounded shadow py-4 px-6">
+      <div class="mb-4">
+        <h1 class="text-center font-semibold pt-4 pb-8">Login into trello</h1>
+        <form novalidate class="space-y-4">
+          <!-- Input -->
+          <div class="relative">
+            <input
+              placeholder="Enter email"
+              type="email"
+              class="w-full rounded bg-gray-100 border-2 border-gray-300"
+            />
+          </div>
+
+          <!-- Input -->
+          <div class="relative">
+            <input
+              placeholder="Enter password"
+              type="password"
+              class="w-full rounded bg-gray-100 border-2 border-gray-300"
+            />
+          </div>
+
+          <!-- Button -->
+          <div class="relative">
+            <app-btn typebtn="submit" color="red">Log In</app-btn>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr class="mt-10 flex border-b-1 border-r-gray-300" />
+    <!-- Logo enterprise -->
+    <div>
+      <div class="flex justify-center">
+        <img
+          class="w-32 mt-4"
+          src="assets/images/logo/logo-atlassian-gray.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
